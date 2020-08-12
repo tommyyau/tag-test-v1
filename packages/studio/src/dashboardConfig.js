@@ -18,12 +18,12 @@ export default {
         data: [
           {
             title: 'GitHub repo',
-            value: 'REPO_URL',
+            value: 'https://github.com/tommyyau/tag-test-v1.git',
             category: 'Code'
           },
           {
             title: 'Frontend',
-            value: 'FRONTEND_URL',
+            value: 'http://confident-tesla-860359.netlify.app',
             category: 'apps'
           }
         ]
