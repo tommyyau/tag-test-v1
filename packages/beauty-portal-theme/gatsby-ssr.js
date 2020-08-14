@@ -3,6 +3,17 @@ const React = require('react');
 const headComponents = [];
 
 headComponents.push(
+  <script
+    type="text/javascript"
+    src="https://cdn.cookielaw.org/consent/03f1bb81-d4bd-4360-8ab5-6bfb7a9f3ed8-test/OtAutoBlock.js"
+  ></script>,
+  <script
+    src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    type="text/javascript"
+    charset="UTF-8"
+    data-domain-script="03f1bb81-d4bd-4360-8ab5-6bfb7a9f3ed8-test"
+  ></script>,
+  <script type="text/javascript"> function OptanonWrapper() {} </script>,
   <link rel="preconnect" href="https://cdn.sanity.io" />,
   <link rel="dns-prefetch" href="https://cdn.sanity.io" />,
   <link
