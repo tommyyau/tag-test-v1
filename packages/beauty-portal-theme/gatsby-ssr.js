@@ -13,7 +13,12 @@ headComponents.push(
     charset="UTF-8"
     data-domain-script="03f1bb81-d4bd-4360-8ab5-6bfb7a9f3ed8-test"
   ></script>,
-  <script type="text/javascript"> function OptanonWrapper() {} </script>,
+  <script
+    type="text/javascript"
+    dangerouslySetInnerHTML={{
+      __html: `function OptanonWrapper() {}`,
+    }}
+  />,
   <link rel="preconnect" href="https://cdn.sanity.io" />,
   <link rel="dns-prefetch" href="https://cdn.sanity.io" />,
   <link
